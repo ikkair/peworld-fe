@@ -1,0 +1,26 @@
+.authImage{
+    background-image: linear-gradient(to top, rgba(94, 80, 161, 0.8), rgba(94, 80, 161, 0.8)), url('../../assets/images/Auth\ Image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+.authImage h2{
+    font-family: OpenSansBold;
+    color: white;
+    display: inline-block;
+    width: 60%;
+}
+.formLabel {
+  color: grey;
+  font-size: 14px;
+}
+.formControl:active,
+.formControl:hover,
+.formControl:focus {
+  border-color: rgb(94, 80, 161) !important;
+  box-shadow: 0.5px 1px 10px 0.5px rgb(213, 213, 213) !important;
+}
+

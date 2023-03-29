@@ -1,0 +1,43 @@
+.topBar{
+    color: white;
+}
+
+.topBar div h5{
+    font-family: OpenSansBold;
+}
+
+/* Section Tag */
+.listSkills {
+    overflow-x: scroll;
+    cursor: grab;
+}
+.listSkills::-webkit-scrollbar {
+    display: none;
+}
+.listSkills p {
+    font-size: 12px !important;
+    background-color: rgba(251, 176, 23, 1);
+    color: white !important;
+    font-weight: 400 !important;
+    border: 1px solid rgba(251, 176, 23, 1);
+}
+.listSkills p:active {
+    background-color: rgb(255, 170, 0) !important;
+}
+.listSkills p:hover {
+    background-color: rgb(255, 170, 0) !important;
+}
+
+.body span, .body p {
+    color: grey;
+    font-size: 14px;
+}
+.seeProfil {
+    background-color: #5E50A1 !important;
+    color: white !important;
+}
+.seeProfil:hover {
+    background-color: transparent !important;
+    border: 1px solid #5E50A1 !important;
+    color: #5E50A1 !important;
+}

@@ -1,0 +1,14 @@
+@font-face {
+    font-family: OpenSans;
+    src: url("../assets/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family: OpenSansBold;
+    src: url("../assets/fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf");
+}
+
+
+*{
+    font-family: OpenSans;
+}
+

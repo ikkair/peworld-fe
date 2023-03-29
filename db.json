@@ -1,0 +1,91 @@
+{
+  "candidates": [
+    {
+      "id": 1,
+      "name": "Ikhlasul Kamal Irmansyah",
+      "email": "ikhlasul.kamal.i@gmail.com",
+      "phone": 6281398912011,
+      "password": "henlo"
+    },
+    {
+      "name": "Ilham updated again",
+      "email": "ilham@gmail.com",
+      "phone": 62812345678,
+      "password": "henloo",
+      "id": 2
+    }
+  ],
+  "candidate_details": [
+    {
+      "id": 1,
+      "position": "Fullstack Web Developer",
+      "domicile": "ikhlasul.kamal.i@gmail.com",
+      "workplace": "Fullstack Studio",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "candidateId": 1
+    }
+  ],
+  "candidate_skills": [
+    {
+      "skill": "C#",
+      "candidateId": 1,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "skill": "Rust",
+      "candidateId": 1
+    },
+    {
+      "id": 3,
+      "skill": "C",
+      "candidateId": 1
+    },
+    {
+      "skill": "Skill Updated",
+      "candidateId": 1,
+      "id": 4
+    }
+  ],
+  "candidate_experiences": [
+    {
+      "id": 1,
+      "position": "Game Developer",
+      "company_name": "Samudera Kreatif Studio",
+      "start_date": "1 Januari 2020",
+      "end_date": "30 Desember 2020",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "candidateId": 1
+    },
+    {
+      "id": 2,
+      "position": "Gojek",
+      "company_name": "Goto",
+      "start_date": "1 Januari 2021",
+      "end_date": null,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "candidateId": 1
+    }
+  ],
+  "candidate_portfolios": [
+    {
+      "id": 1,
+      "application_name": "Markisak BE",
+      "link_repository": "https://github.com/ikkair/markisak-be",
+      "portofolio_type": "WEB",
+      "photo": "https://nemolab.id/wp-content/uploads/2021/02/1_-puLhgETRvZkaghm8KDqYA.png",
+      "candidateId": 1
+    }
+  ],
+  "recruiters": [
+    {
+      "id": 1,
+      "name": "Ikkair",
+      "email": "ikkair@gmail.com",
+      "company": "PT Ikkair Sejahtera",
+      "position": "HRD",
+      "phone": 62812345678,
+      "password": "henlo"
+    }
+  ]
+}
