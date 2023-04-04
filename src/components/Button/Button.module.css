@@ -1,0 +1,14 @@
+.button {
+    background-color: #1d4d57;
+    color:white;
+    transition: 0.2s;
+    padding: 6px 12px;
+}
+
+.button:hover {
+    background-color: hsl(194, 34%, 42%);
+}
+
+.button:active {
+    background-color: hsl(194, 34%, 37%);
+}

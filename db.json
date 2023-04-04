@@ -1,48 +1,75 @@
 {
+  "landing_page_data": [
+    {
+      "skill": "Rust"
+    }, 
+    {
+      "skill": "C"
+    }, 
+    {
+      "skill": "C#"
+    }, 
+    {
+      "skill": "Java"
+    }, 
+    {
+      "skill": "Javascript"
+    }
+  ],
+
   "candidates": [
     {
       "id": 1,
       "name": "Ikhlasul Kamal Irmansyah",
       "email": "ikhlasul.kamal.i@gmail.com",
       "phone": 6281398912011,
-      "password": "henlo"
+      "password": "henlo",
+      "position": "Fullstack Web Developer",
+      "domicile": "Bojonggede, Bogor",
+      "workplace": "Ikkair Studio",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
-      "name": "Ilham updated again",
-      "email": "ilham@gmail.com",
-      "phone": 62812345678,
-      "password": "henloo",
-      "id": 2
-    }
-  ],
-  "candidate_details": [
-    {
-      "id": 1,
+      "id": 2,
+      "name": "Muhammad Ilham",
+      "email": "muhammad.ilham@gmail.com",
+      "phone": 628123456789,
+      "password": "henlo",
       "position": "Fullstack Web Developer",
-      "domicile": "ikhlasul.kamal.i@gmail.com",
-      "workplace": "Fullstack Studio",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "candidateId": 1
+      "domicile": "Bekasi, Jakarta",
+      "workplace": "Ilham Studio",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "id": 3,
+      "name": "Iqbal Apredo",
+      "email": "iqbal.apredo@gmail.com",
+      "phone": 6898764321,
+      "password": "henlo",
+      "position": "Fullstack Web Developer",
+      "domicile": "Padang",
+      "workplace": "Iqbal Studio",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
   ],
   "candidate_skills": [
     {
-      "skill": "C#",
+      "name": "C#",
       "candidateId": 1,
       "id": 1
     },
     {
       "id": 2,
-      "skill": "Rust",
+      "name": "Rust",
       "candidateId": 1
     },
     {
       "id": 3,
-      "skill": "C",
+      "name": "C",
       "candidateId": 1
     },
     {
-      "skill": "Skill Updated",
+      "name": "Skill Updated",
       "candidateId": 1,
       "id": 4
     }

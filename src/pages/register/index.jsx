@@ -13,7 +13,7 @@ const Register = () => {
                 </h2>
               </div>
             </div>
-            <div className="col-md-6 p-5 d-flex flex-column justify-content-center">
+            <div className="col-md-6 p-5 d-flex flex-column justify-content-center"  style={{backgroundColor: "#fbf9f7"}}>
               <h1 className="h3">
                 <b>Halo, Pewpeople</b>
               </h1>
