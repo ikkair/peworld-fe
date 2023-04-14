@@ -69,9 +69,34 @@
       "candidateId": 1
     },
     {
-      "name": "Skill Updated",
-      "candidateId": 1,
+      "name": "Golang",
+      "candidateId": 2,
       "id": 4
+    },
+    {
+      "name": "React",
+      "candidateId": 2,
+      "id": 5
+    },
+    {
+      "name": "Redux",
+      "candidateId": 2,
+      "id": 6
+    },
+    {
+      "name": "React",
+      "candidateId": 3,
+      "id": 7
+    },
+    {
+      "name": "Laravel",
+      "candidateId": 3,
+      "id": 8
+    },
+    {
+      "name": "Java",
+      "candidateId": 3,
+      "id": 9
     }
   ],
   "candidate_experiences": [

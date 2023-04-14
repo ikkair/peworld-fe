@@ -11,10 +11,10 @@ import Landing2 from '../../public/landing-page/landing-page-2.png';
 import Landing3 from '../../public/landing-page/landing-page-3.png';
 
 export async function getStaticProps() {
-  const res = await axios.get(`${process.env.NEXT_PUBLIC_HOST}/landing_page_data`)
+  const res = await axios.get(`${process.env.NEXT_PUBLIC_HOST}/skills`)
   return {
     props: {
-      skills: res.data
+      skills: res.data.data
     }
   }
 }
@@ -28,7 +28,7 @@ export default function Home({skills}) {
           <div className="col-sm-12 col-md-6 d-flex flex-column justify-content-evenly">
             <h1 className='mt-5'>Talenta terbaik negeri untuk perubahan revolusi 4.0</h1>
             <h6>Lorem ipsum dolor sit amet, ex eos commune dissentiet. Ea duo quod putent voluptatibus, et consul putant salutandi cum. Meis vocibus appareat quo ex. An qui alii posse postea, quo eu scriptorem eloquentiam.</h6>
-            <Button>Mulai Dari Sekarang</Button>
+            <Button href={`/home`}>Mulai Dari Sekarang</Button>
           </div>
           <div className="col-sm-12 col-md-6">
             <Image src={Landing1} className="img-fluid" alt='' />
@@ -50,8 +50,8 @@ export default function Home({skills}) {
               {
                 skills.map((element) => {
                   return (
-                    <li key={element.skill}>
-                      {element.skill}
+                    <li key={element.name}>
+                      {element.name}
                     </li>
                   )
                 })

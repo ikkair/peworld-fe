@@ -1,18 +1,27 @@
+import Link from 'next/link'
 import styles from './Button.module.css'
 
-const Button = ({children, width, height}) => {
+const Button = ({children, width, height, onClick, href, inverse}) => {
+  if(!href){
+    href = ""
+  }
   if(!width){
     width = "100%"
   }
   const inlineStyle = {
     width: `${width}`,
   }
+  let type = styles.button
+  if (inverse){
+    type = styles.buttonInverse
+  }
   if (height){
     inlineStyle.height = height
   }
-  // let widthDefault = ""
   return (
-    <button className={`${styles.button} rounded`} style={inlineStyle}> {children}</button>
+    <Link href={href}>
+      <button className={`${type} rounded`} style={inlineStyle} onClick={onClick}> {children}</button>
+    </Link>
   )
 }
 

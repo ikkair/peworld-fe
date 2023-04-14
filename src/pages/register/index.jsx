@@ -1,3 +1,4 @@
+import Link from "next/link";
 import style from "./style.module.css";
 const Register = () => {
   return (
@@ -124,7 +125,7 @@ const Register = () => {
               </button>
               <p className="text-center">
               Anda sudah punya akun? {" "}
-                <span className="text-warning">Masuk disini</span>
+                <Link href={"/login"} className="text-warning text-decoration-none">Masuk disini</Link>
               </p>
             </div>
           </div>

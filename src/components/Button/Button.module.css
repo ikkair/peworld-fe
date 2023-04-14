@@ -12,3 +12,10 @@
 .button:active {
     background-color: hsl(194, 34%, 37%);
 }
+
+.buttonInverse {
+    background-color: white;
+    color:#1d4d57;
+    transition: 0.2s;
+    padding: 6px 12px;
+}
