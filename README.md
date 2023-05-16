@@ -90,40 +90,24 @@ npm run build
 
 # Screenshots
 
-<!-- <table>
+<table>
  <tr>
-    <td><img width="350px" src="./docs/readme/login.png" border="0" alt="Login" /></td>
-    <td> <img width="350px" src="./docs/readme/register.png" border="0"  alt="Register" /></td>
+    <td><img width="350px" src="./public/docs/Peworld Login.png" border="0" alt="Login" /></td>
+    <td> <img width="350px" src="./public/docs/Peworld Register.png" border="0"  alt="Register" /></td>
   </tr>
   <tr>
     <td>Login</td>
     <td>Register</td>
   </tr>
   <tr>
-    <td><img width="350px" src="./docs/readme/home-page.png" border="0" alt="Home Page" /></td>
-    <td><img width="350px" src="./docs/readme/worker-list.png" border="0" alt="Worker List" /> </td>
+    <td><img width="350px" src="./public/docs/Peworld Landing.png" border="0" alt="Landing" /></td>
+    <td><img width="350px" src="./public/docs/Peworld Edit Profile.png" border="0" alt="Profile" /> </td>
   </tr>
    <tr>
-    <td>Home Page</td>
-    <td>Worker List</td>
+    <td>Landing Page</td>
+    <td>Edit Profile</td>
   </tr>
-  <tr>
-    <td><img width="350px" src="./docs/readme/portfolio.png" border="0" alt="Portfolio" /></td>
-    <td><img width="350px" src="./docs/readme/work-experience.png" border="0" alt="Work Experience" /> </td>
-  </tr>
-   <tr>
-    <td>Worker Profile - Portfolio</td>
-    <td>Worker Profile - Work Experience</td>
-  </tr>
-    <tr>
-    <td><img width="350px" src="./docs/readme/hire.png" border="0" alt="Hire Worker" /></td>
-    <td><img width="350px" src="./docs/readme/notification.png" border="0" alt="Notification" /> </td>
-  </tr>
-   <tr>
-    <td>Worker Profile - Hire Worker</td>
-    <td>Notification</td>
-  </tr>
-</table> -->
+</table>
 
 # Related Project
 
