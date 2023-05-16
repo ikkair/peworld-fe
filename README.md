@@ -1,38 +1,134 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<br />
+<p align="center">
+  <div align="center">
+    <img height="150" src="#" alt="Peworld" border="0"/>
+  </div>
+  <h3 align="center">Hirejob (Hiring App)</h3>
+  <p align="center">
+    <a href="https://github.com/ikkair/peworld-fe"><strong>Explore the docs »</strong></a>
+    <br />
+    <a href="#">View Demo</a>
+    ·
+    <a href="#">Api Demo</a>
+  </p>
+</p>
 
-## Getting Started
+## Table of Contents
 
-First, run the development server:
+- [About The Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Screenshots](#screenshots)
+- [Related Project](#related-project)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# About The Project
+
+Peworld is a hiring website to make it easier to connect workers with recruiters. Workers can create an account and display portfolios, work experiences, and skills on this website. Recruiters can create an account for searching and hiring workers based on company needs. Workers will be notified if they are hired by recruiter.
+
+## Built With
+
+These are the libraries and service used for building this backend API
+
+- [NextJS](https://nextjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [React-icons](https://react-icons.github.io/react-icons/)
+- [Axios](https://axios-http.com)
+- [Sweetalert2](https://sweetalert2.github.io)
+
+# Getting Started
+
+## Prerequisites
+
+You'll need these programs installed before proceeding to installation
+
+- [Git](https://git-scm.com/downloads)
+- [Node.js](https://nodejs.org/en/download)
+
+This project requires [peworld-be](https://github.com/ikkair/peworld-be) to function properly, follow the steps provided in the readme to install and run the backend API
+
+## Installation
+
+Follow this steps to run the server locally
+
+1. Clone this repository
+
+```sh
+git clone https://github.com/ikkair/peworld-fe.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Change directory to hirejob-frontend
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```sh
+cd peworld-fe
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+3. Install all of the required modules
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```sh
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. Create and configure `.env.local` file in the root directory, example env are provided in [.env.local.example](./.env.local.example)
 
-## Learn More
+```env
+NEXT_PUBLIC_HOST=[ Backend URL ]
+```
 
-To learn more about Next.js, take a look at the following resources:
+5. Run this command to run the server in development environment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Run this command to build this website into production ready
 
-## Deploy on Vercel
+```sh
+npm run build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Screenshots
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<!-- <table>
+ <tr>
+    <td><img width="350px" src="./docs/readme/login.png" border="0" alt="Login" /></td>
+    <td> <img width="350px" src="./docs/readme/register.png" border="0"  alt="Register" /></td>
+  </tr>
+  <tr>
+    <td>Login</td>
+    <td>Register</td>
+  </tr>
+  <tr>
+    <td><img width="350px" src="./docs/readme/home-page.png" border="0" alt="Home Page" /></td>
+    <td><img width="350px" src="./docs/readme/worker-list.png" border="0" alt="Worker List" /> </td>
+  </tr>
+   <tr>
+    <td>Home Page</td>
+    <td>Worker List</td>
+  </tr>
+  <tr>
+    <td><img width="350px" src="./docs/readme/portfolio.png" border="0" alt="Portfolio" /></td>
+    <td><img width="350px" src="./docs/readme/work-experience.png" border="0" alt="Work Experience" /> </td>
+  </tr>
+   <tr>
+    <td>Worker Profile - Portfolio</td>
+    <td>Worker Profile - Work Experience</td>
+  </tr>
+    <tr>
+    <td><img width="350px" src="./docs/readme/hire.png" border="0" alt="Hire Worker" /></td>
+    <td><img width="350px" src="./docs/readme/notification.png" border="0" alt="Notification" /> </td>
+  </tr>
+   <tr>
+    <td>Worker Profile - Hire Worker</td>
+    <td>Notification</td>
+  </tr>
+</table> -->
+
+# Related Project
+
+:rocket: [`Frontend Peworld`](https://github.com/ikkair/peworld-fe)
+
+:rocket: [`Backend Peworld`](https://github.com/ikkair/peworld-be)
+
+:rocket: [`Demo Peworld`](#)
