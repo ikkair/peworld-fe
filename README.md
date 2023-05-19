@@ -109,7 +109,7 @@ npm run build
   </tr>
   <tr>
     <td><img width="350px" src="./public/docs/Peworld Search.png" border="0" alt="Search" /></td>
-    <td><img width="350px" src="./public/docs/Peworld Detail Talent.png" border="0" alt="Detail Talent" /> </td>
+    <td><img width="350px" src="./public/docs/Peworld Detail Talent.jpg" border="0" alt="Detail Talent" /> </td>
   </tr>
    <tr>
     <td>Search</td>
