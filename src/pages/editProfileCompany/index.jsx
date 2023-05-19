@@ -102,7 +102,7 @@ const editProfileCompany = () => {
       <div className="container mt-3">
         <div className="row align-items-start gap-lg-3">
           <div className="col-lg-3 p-3 rounded gap-2 d-flex flex-column" style={{ backgroundColor: "#fbf9f7" }}>
-            {profilePhoto? 
+            {profilePhoto && profilePhoto !== "photo.jpg"? 
             <Image alt='' src={profilePhoto} className="rounded-circle align-self-center mb-3" width={130} height={130} />
             : 
             <Image alt='' src={Person1} className="rounded-circle align-self-center mb-3" width={130} />
@@ -144,7 +144,7 @@ const editProfileCompany = () => {
               <div className='p-3 col-12 rounded' style={{ backgroundColor: "#fbf9f7" }}>
                 <span className='fs-4'>
                   <b>
-                    Data Diri
+                    Data Perusahaan
                   </b>
                 </span>
                 <hr />

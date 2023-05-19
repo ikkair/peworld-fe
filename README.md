@@ -107,6 +107,22 @@ npm run build
     <td>Landing Page</td>
     <td>Edit Profile</td>
   </tr>
+  <tr>
+    <td><img width="350px" src="./public/docs/Peworld Search.png" border="0" alt="Search" /></td>
+    <td><img width="350px" src="./public/docs/Peworld Detail Talent.png" border="0" alt="Detail Talent" /> </td>
+  </tr>
+   <tr>
+    <td>Search</td>
+    <td>Detail Talent</td>
+  </tr>
+  <tr>
+    <td><img width="350px" src="./public/docs/Peworld Experience.png" border="0" alt="Experience" /></td>
+    <td><img width="350px" src="./public/docs/Peworld Hire.png" border="0" alt="Hire" /> </td>
+  </tr>
+   <tr>
+    <td>Experience</td>
+    <td>Hire</td>
+  </tr>
 </table>
 
 # Related Project

@@ -133,7 +133,7 @@ const hire = ({data}) => {
           <dir className="p-3 col rounded" style={{ backgroundColor: "#fbf9f7" }}>
             <div className='p-3 col-12 rounded' style={{ backgroundColor: "#fbf9f7" }}>
               <span className='fs-4'>
-                <b>Hubungi Ikhlasul Kamal</b>
+                <b>Hubungi {data.name}</b>
               </span>
               <hr />
               <div className='mb-2'>
@@ -154,7 +154,7 @@ const hire = ({data}) => {
               </div>
               <div className='mb-4'>
                 <label htmlFor="description" className="my-0 form-label text-secondary">Deskripsi Singkat</label>
-                <input value={hireForm.description} onChange={handleHireChange} placeholder='Masukan tempat kerja' type="text" className="form-control" id="description" name='description' />
+                <textarea value={hireForm.description} onChange={handleHireChange} placeholder='Masukan tempat kerja' type="text" className="form-control" id="description" name='description' />
               </div>
               <Button onClick={handleHire}>Hire</Button>
             </div>
