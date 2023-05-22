@@ -9,7 +9,7 @@ import axios from 'axios';
 import Swal from 'sweetalert2';
 import SkillBadge from '@/components/SkillBadge';
 
-const editProfile = () => {
+const EditProfile = () => {
   // States
   const [id, setId] = useState("")
   const [token, setToken] = useState("")
@@ -417,4 +417,4 @@ const editProfile = () => {
   )
 }
 
-export default editProfile
+export default EditProfile

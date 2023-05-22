@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Swal from 'sweetalert2';
 
-const editProfileCompany = () => {
+const EditProfileCompany = () => {
   const [idRecruiter, setIdRecruiter] = useState("")
   const [token, setToken] = useState("")
   const [trigger, setTrigger] = useState(false)
@@ -178,4 +178,4 @@ const editProfileCompany = () => {
   )
 }
 
-export default editProfileCompany
+export default EditProfileCompany

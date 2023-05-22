@@ -24,7 +24,7 @@ export async function getServerSideProps({ params }) {
   }
 }
 
-const profile = ({ data }) => {
+const Profile = ({ data }) => {
   const [role, setRole] = useState()
   useEffect(() => {
     setRole(localStorage.getItem("role"))
@@ -168,4 +168,4 @@ const profile = ({ data }) => {
   )
 }
 
-export default profile
+export default Profile

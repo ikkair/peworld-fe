@@ -13,7 +13,7 @@ const profileCompany = () => {
       <div className='container'>
         <div className='row'>
           <div className='col py-5 d-flex flex-column align-items-center m-3 rounded' style={{ backgroundColor: "#fbf9f7" }}>
-            <Image src={Person1} className='mb-2 rounded-circle' width={150} />
+            <Image src={Person1} alt='' className='mb-2 rounded-circle' width={150} />
             <span className='fs-4'>
               <b>
                 PT Ikkair Bisa
@@ -23,7 +23,7 @@ const profileCompany = () => {
               Game Studio
             </span>
             <div className='mb-2 d-flex align-items-center gap-1'>
-              <Image src={Pin} />
+              <Image src={Pin} alt='' />
               <span className='text-secondary'>
                 Bojonggede, Bogor
               </span>

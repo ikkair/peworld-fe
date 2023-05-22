@@ -19,7 +19,7 @@ export async function getServerSideProps({params}){
     }
 }
 
-const hire = ({data}) => {
+const Hire = ({data}) => {
   const [token, setToken] = useState("")
   const [hireForm, setHireForm] = useState({
     id_talent: data.id,
@@ -166,4 +166,4 @@ const hire = ({data}) => {
   )
 }
 
-export default hire
+export default Hire
