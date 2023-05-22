@@ -62,6 +62,7 @@ const Login = () => {
           email: "",
           password: ""
         })
+        console.log(err)
       })
   }
   const handleLoginTalent = (event) => {
