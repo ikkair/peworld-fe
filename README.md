@@ -7,9 +7,7 @@
   <p align="center">
     <a href="https://github.com/ikkair/peworld-fe"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="#">View Demo</a>
-    ·
-    <a href="#">Api Demo</a>
+    <a href="https://peworld-fe-ikkair.vercel.app/">View Demo</a>
   </p>
 </p>
 
@@ -131,4 +129,4 @@ npm run build
 
 :rocket: [`Backend Peworld`](https://github.com/ikkair/peworld-be)
 
-:rocket: [`Demo Peworld`](#)
+:rocket: [`Demo Peworld`](https://peworld-fe-ikkair.vercel.app/)
