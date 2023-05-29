@@ -27,7 +27,7 @@ export default function Home({skills}) {
         <div className="row gy-5 mt-1">
           <div className="col-sm-12 col-md-6 d-flex flex-column justify-content-evenly">
             <h1 className='mt-5'>Talenta terbaik negeri untuk perubahan revolusi 4.0</h1>
-            <h6>Lorem ipsum dolor sit amet, ex eos commune dissentiet. Ea duo quod putent voluptatibus, et consul putant salutandi cum. Meis vocibus appareat quo ex. An qui alii posse postea, quo eu scriptorem eloquentiam.</h6>
+            <h6>Revolusi Industri 4.0 merupakan istilah yang merujuk pada perubahan transformasional dalam dunia industri dan teknologi yang terjadi pada abad ke-21. Revolusi ini ditandai oleh penggunaan teknologi digital yang canggih, seperti kecerdasan buatan, komputasi awan, big data, internet of things (IoT), dan robotika.</h6>
             <Button href={`/home`}>Mulai Dari Sekarang</Button>
           </div>
           <div className="col-sm-12 col-md-6">

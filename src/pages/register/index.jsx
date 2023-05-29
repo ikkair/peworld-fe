@@ -18,10 +18,7 @@ const Register = () => {
               <h1 className="h3">
                 <b>Halo, Pewpeople</b>
               </h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                euismod ipsum et dui rhoncus auctor.
-              </p>
+              <p>Mari bergabung mencari talenta yang berkualitas bersama peworld</p>
               <div className="mb-3">
                 <label for="nama" className={`form-label ${style.formLabel}`}>
                   Nama

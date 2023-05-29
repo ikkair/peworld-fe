@@ -120,10 +120,7 @@ const Login = () => {
               <h1 className="h3">
                 <b>Halo, Pewpeople</b>
               </h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                euismod ipsum et dui rhoncus auctor.
-              </p>
+              <p>Silahkan login</p>
               <nav>
                 <div className="nav nav-tabs" id="nav-tab" role="tablist">
                   <button
